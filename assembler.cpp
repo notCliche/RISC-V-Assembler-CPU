@@ -1,3 +1,5 @@
+// Om Prakash Behera (IIT Bhubaneswar)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -247,4 +249,5 @@ int main() {
     string instruction = "SW X1, 8[X2]"; // Example instruction
     string machineCode = assembler.assemble(instruction);
     cout << machineCode << endl;
+    return 0;
 }
