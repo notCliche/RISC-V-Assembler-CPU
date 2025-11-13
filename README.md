@@ -154,3 +154,6 @@ The assembler and simulator support the following subset of the RV32I instructio
 | | `BLTU`, `BGEU`| Branch (Unsigned) |
 | **U-Type** | `LUI`, `AUIPC` | Load Upper Immediate, Add Upper Immediate to PC |
 | **J-Type** | `JAL` | Jump and Link |
+
+## A Schematic Illustration of 5-Stage Pipeline
+![](cpupipeline.png)
